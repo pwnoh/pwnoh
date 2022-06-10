@@ -4,14 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pwnoh</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
+
+    <title>pwnoh</title>
   </head>
   <body>
-    <h1>WELCOME</h1>
-    <div class="mainImage"></div>
-
-    <p>o yago eh gay</p>
+    <section class="mainBlock">
+      <div class="mainDiv">
+        <img class="mainImage" src="assets/mainImage" alt="mainImage" />
+        <div class="loginInterface">
+          <label
+            >Username:
+            <input type="text" class="userBox" name="userBox" />
+          </label>
+          <label
+            >Password:
+            <input type="text" class="userBox" name="userBox" />
+          </label>
+          <div class="forgotPassword">
+            <p>Forgot your password?</p>
+            <a href="#" target="_blank" class="passwordLink">Click here!</a>
+            <a href="#" target="_blank"></a>
+          </div>
+          <button type="button" class="logInButtom" name="logInButtom">
+            Log in
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

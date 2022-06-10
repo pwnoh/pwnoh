@@ -1,7 +1,81 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(/assets/windF.gif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: rgba(218, 15, 15, 0.692);
+}
+
+.mainBlock {
+  width: 600px;
 }
 
 .mainImage {
+  margin-bottom: 60px;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+}
+
+.mainDiv {
+  background-color: rgba(71, 16, 16, 0.507);
+  display: grid;
+  gap: 50px;
+  border-radius: 20px;
   background-image: url(/assets/mainImage.gif);
+}
+
+.loginInterface {
+  display: grid;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.userBox {
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgba(218, 15, 15, 0.692);
+  width: 300px;
+  height: 30px;
+}
+
+.logInButtom {
+  background-color: rgba(218, 15, 15, 0.692);
+  width: 130px;
+  margin-bottom: 40px;
+  justify-self: center;
+  border-radius: 40px;
+  height: 30px;
+}
+
+.logInButtom:hover,
+.logInButtom:active {
+  background-color: rgba(201, 49, 49, 0.582);
+}
+
+.forgotPassword {
+  padding-left: 2px;
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.passwordLink {
+  text-decoration: underline;
+  color: rgba(218, 15, 15, 0.692);
 }
