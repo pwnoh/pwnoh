@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,22 +22,25 @@
         <div class="loginInterface">
           <label
             >Username:
-            <input type="text" class="userBox" name="userBox" />
+            <input type="text" class="userBox" name="userBox" id="user"/>
           </label>
           <label
             >Password:
-            <input type="text" class="userBox" name="userBox" />
+            <input type="text" class="userBox" name="userBox" id="passwd" />
           </label>
           <div class="forgotPassword">
             <p>Forgot your password?</p>
             <a href="#" target="_blank" class="passwordLink">Click here!</a>
             <a href="#" target="_blank"></a>
           </div>
-          <button type="button" class="logInButtom" name="logInButtom">
+          <button type="button" class="logInButtom" name="logInButtom" onClick="validate()">            
             Log in
           </button>
         </div>
       </div>
     </section>
+
+    <script src="script.js"></script> 
+    
   </body>
 </html>
