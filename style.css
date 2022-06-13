@@ -83,6 +83,8 @@ body {
 }
 
 .userBox {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 12px;
   border-radius: 15px;
   border-color: rgba(124, 64, 79, 0.76);
   background-color: rgba(31, 25, 25, 0.644);
@@ -99,6 +101,8 @@ body {
 }
 
 .logInButtom {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: 16px;
   color: rgb(187, 156, 156);
   background-color: rgb(31, 25, 25);
   width: 30%;
