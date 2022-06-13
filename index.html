@@ -19,11 +19,16 @@
     <section class="mainBlock">
       <div class="mainDiv">
         <img class="mainImage" src="assets/mainImage" alt="mainImage" />
-        <p class="pwnoh">~PWNOH~</p>
+        
+        <!-- Header -->
+        <h3 class="pwnoh">~PWNOH~</h3>
         <hr class="mainHr" />
         <p class="kanji">どこに至って、人は繋がっているのよ</p>
 
+        <!-- User interface div -->
         <div class="loginInterface">
+
+          <!-- Username input -->
           <input
             type="text"
             class="userBox"
@@ -33,18 +38,20 @@
             spellcheck="false"
           />
 
+          <!-- Password input -->
           <input
-            type="password"
-            class="userBox"
-            name="userBox"
-            placeholder="Password"
-            id="passwd"
+          type="password"
+          class="userBox"
+          name="userBox"
+          placeholder="Password"
+          id="passwd"
           />
-
+          
+          <!-- Login button -->
           <button
-            type="button"
-            class="logInButtom"
-            name="logInButtom"
+          type="button"
+            class="logInButton"
+            name="logInButton"
             onClick="validate()"
           >
             Log in
