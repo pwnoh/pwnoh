@@ -19,28 +19,39 @@
     <section class="mainBlock">
       <div class="mainDiv">
         <img class="mainImage" src="assets/mainImage" alt="mainImage" />
+        <p class="pwnoh">~PWNOH~</p>
+        <hr class="mainHr" />
+        <p class="kanji">どこに至って、人は繋がっているのよ</p>
+
         <div class="loginInterface">
-          <label
-            >Username:
-            <input type="text" class="userBox" name="userBox" id="user"/>
-          </label>
-          <label
-            >Password:
-            <input type="text" class="userBox" name="userBox" id="passwd" />
-          </label>
-          <div class="forgotPassword">
-            <p>Forgot your password?</p>
-            <a href="#" target="_blank" class="passwordLink">Click here!</a>
-            <a href="#" target="_blank"></a>
-          </div>
-          <button type="button" class="logInButtom" name="logInButtom" onClick="validate()">            
+          <input
+            type="text"
+            class="userBox"
+            name="userBox"
+            placeholder="User"
+            id="user"
+          />
+
+          <input
+            type="text"
+            class="userBox"
+            name="userBox"
+            placeholder="Password"
+            id="passwd"
+          />
+
+          <button
+            type="button"
+            class="logInButtom"
+            name="logInButtom"
+            onClick="validate()"
+          >
             Log in
           </button>
         </div>
       </div>
     </section>
 
-    <script src="script.js"></script> 
-    
+    <script src="script.js"></script>
   </body>
 </html>
